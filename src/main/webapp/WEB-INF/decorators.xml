@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators"> <!-- defaultdir: trỏ về nơi chứa master layout - ở đây là đường dẫn tới folder 
+		decorators -->
+
+	<!-- apply web template -->
+
+	<!-- <decorator name="trang-chu" page="web.jsp"> <pattern>/trang-chu</pattern> 
+		khi request đường dẫn /trang-chu thì nó sẽ apply template web.jsp </decorator> 
+		<decorator name="home" page="admin.jsp"> <pattern>/home</pattern> khi request 
+		đường dẫn /home thì nó sẽ apply template admin.jsp </decorator> -->
+
+	<!-- <decorator name="web" page="web.jsp">
+		<pattern>/*</pattern> tất cả url bắt đầu bằng / thì sẽ apply giao diện web
+	</decorator> -->
+
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri*</pattern> <!-- tất cả url bắt đầu bằng /quan-tri thì sẽ apply giao diện admin -->
+	</decorator>
+
+<!-- 	<decorator name="login" page="login.jsp">
+		<pattern>/dang-nhap</pattern>
+	</decorator> -->
+
+</decorators>

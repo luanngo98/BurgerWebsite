@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/burger/config/JpaAuditingConfig.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/burger/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/burger/list.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/admin/home.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/web/home.jsp=UTF-8

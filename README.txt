@@ -1,0 +1,3 @@
+- tomcat 8.5
+- java 1.8
+- maven 3.6.3
